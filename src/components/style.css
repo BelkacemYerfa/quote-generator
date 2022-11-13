@@ -1,0 +1,52 @@
+@import '../App.css' ; 
+
+main .Card{
+ position: relative;
+ height: 270px;
+ width: 300px;
+ background-color: var(--bg-card-color);
+ border-radius: 10px;
+ padding: 10px 15px;
+}
+
+.Card p {
+ color: var(--btn-primary-color);
+ letter-spacing: 1.5px;
+}
+
+.Card h1{
+ color: var(--btn-secondly-color);
+ font-size: var(--font-size-quotes);
+}
+
+.Card button{
+ cursor: pointer;
+ position: absolute;
+ bottom: -20px;
+ left: 45%;
+ border: none;
+ height: 60px;
+ width: 60px;
+ background-color: var(--btn-primary-color);
+ border-radius: 50%;
+}
+
+button img{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50% , -50%);
+}
+
+button:hover{
+ animation: bgChanger 1s linear forwards ;
+}
+
+@keyframes bgChanger {
+ from{
+   box-shadow: none;
+ }
+ to{
+ box-shadow: 0px 0px 20px var(--btn-primary-color);
+ }
+}

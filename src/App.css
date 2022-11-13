@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root{
+  --btn-primary-color : hsl(150, 100%, 66%) ;
+  --btn-secondly-color : hsl(193, 38%, 86%) ; 
+  --bg-main-color : hsl(218, 23%, 16%) ; 
+  --bg-card-color : hsl(217, 19%, 24%) ; 
+  --font-size-quotes : 28px ; 
+  --font-style-main : 'Manrope', sans-serif ; 
+  --font-weight : 800 ; 
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+body{
+  background-color: var(--bg-main-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-style-main);
+  text-align: center;
+}
+
+main{
+  width: 100%;
+}
